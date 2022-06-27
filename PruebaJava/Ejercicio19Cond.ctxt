@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ejercicio19Cond
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=saldoinicial\ pagos\ creditos
+comment2.target=void\ calcularSaldo(double,\ double,\ double)
+numComments=3
