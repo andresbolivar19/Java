@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Java_Reto1
+comment0.text=\r\nPlanteamiento\ de\ la\ situaci\u00F3n\r\nDentro\ de\ las\ actividades\ de\ desarrollo\ de\ software\ de\ la\ compa\u00F1\u00EDa\ donde\ trabajas\ se\ utiliza\ \r\ntecnolog\u00EDa\ Java,\ en\ uno\ de\ los\ proyectos\ surge\ la\ situaci\u00F3n\ de\ agregar\ productos\ a\ un\ lote.\ \r\nEl\ scrum\ master\ de\ tu\ equipo\ de\ desarrollo\ te\ asigna\ la\ incidencia\ para\ implementar\ una\ funci\u00F3n\ \r\nque\ permita\ calcular\ el\ costo\ de\ almacenamiento\ dentro\ del\ m\u00F3dulo\ de\ productos.\r\n\r\nPlanteamiento\ del\ reto\r\nGenerar\ una\ funci\u00F3n\ llamada\ calcularCostoAlmacenamiento(boolean\ refigerado,\ float\ valorBase)\ \r\nque\ reciba\ dos\ par\u00E1metros,\ uno\ de\ tipo\ boolean\ que\ indica\ \ si\ un\ medicamento\ es\ refrigerado\ \r\no\ no\ refrigerado\ y\ otro\ de\ tipo\ float\ que\ indique\ el\ valorBaseDeAlmacenamiento\ del\ medicamento\ \r\ny\ retorne\ un\ valor\ float\ con\ el\ precio\ de\ almacenamiento\ teniendo\ en\ cuenta\ lo\ siguiente\:\ \r\n\r\nCondiciones\r\nSi\ un\ medicamento\ es\ refrigerado\ la\ variable\ booleana\ ser\u00E1\ true.\ \r\nSi\ un\ medicamento\ es\ refrigerado\ su\ costo\ de\ almacenamiento\ tendr\u00E1\ un\ 30%\ adicional\ al\ valor\ base,\ si\ no\ un\ costo\ adicional\ del\ 15%;\r\nTenga\ en\ cuenta\ el\ orden\ de\ los\ par\u00E1metros\ \r\n\r\nAcciones\ de\ aprendizaje\r\nAnalizar\ la\ situaci\u00F3n\ problema\r\nSeleccionar\ el\ tipo\ estructura/s\ de\ control\ que\ permitir\u00E1n\ dar\ soluci\u00F3n\ a\ la\ situaci\u00F3n\ planteada\r\n
+comment1.params=refigerado\ valorBase
+comment1.target=float\ calcularCostoAlmacenamiento(boolean,\ float)
+comment2.params=refigerado\ valorBase
+comment2.target=float\ calcularCostoAlmacenamiento2(boolean,\ float)
+comment3.params=refigerado\ valorBase
+comment3.target=float\ calcularCostoAlmacenamiento3(boolean,\ float)
+numComments=4

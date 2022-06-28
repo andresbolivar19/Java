@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CuestionarioTema1
+comment0.text=\r\n\ Un\ obrero\ necesita\ calcular\ su\ salario\ semanal,\ el\ cual\ se\ obtiene\ de\ la\ siguiente\ manera\:\r\n\u25CF\ \ \ \ \ Si\ trabaja\ 40\ horas\ o\ menos\ se\ le\ paga\ el\ 0.015\ del\ SMLV\ por\ hora\ laborada.\r\n\u25CF\ \ \ \ \ Si\ trabaja\ m\u00E1s\ de\ 40\ horas\ se\ le\ paga\ a\ 0.02\ del\ SMLV\ por\ hora\ laborada.\r\n\r\nRealice\ una\ funci\u00F3n\ que\ se\ llame\ salario\ que\ reciba\ como\ par\u00E1metro\ la\ cantidad\ de\ \r\nhoras\ del\ obrero\ y\ retorne\ un\ valor\ double\ con\ el\ salario\ devengado\ para\ dar\ soluci\u00F3n\ al\ problema.\r\n\r\nEl\ SMLV\ es\ 1000000\r\n\r\nPor\ ejemplo\:\r\nTest\tResultado\r\nSystem.out.println(salario(10));\ \ \ \ 150000.0\r\n
+comment1.params=horas
+comment1.target=double\ salario(double)
+numComments=2
