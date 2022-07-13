@@ -1,7 +1,17 @@
 #BlueJ class context
 comment0.target=Terreno
 comment1.params=
-comment1.target=void\ calcularArea()
+comment1.target=double\ getLargo()
 comment2.params=
-comment2.target=void\ calcularValorTotal()
-numComments=3
+comment2.target=double\ getAncho()
+comment3.params=largo
+comment3.target=void\ setLargo(double)
+comment4.params=estrato
+comment4.target=void\ setEstrato(int)
+comment5.params=ancho
+comment5.target=void\ setAncho(double)
+comment6.params=
+comment6.target=double\ calcularArea()
+comment7.params=
+comment7.target=double\ calcularValorTotal()
+numComments=8

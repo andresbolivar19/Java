@@ -1,19 +1,51 @@
 public class Terreno
 {
     // Atributos/Variables de clase/Propiedades
-    double largo;
-    double ancho;
-    int estrato;
-    double area;
-    double valorTotal;
+    private double largo;
+    private double ancho;
+    private int estrato;
+    private double area;
+    private double valorTotal;
     
-    //Metodos
-    void calcularArea()
+    //Getters y Setters
+    // Obtener el valor del largo
+    double getLargo()
     {
-        this.area = this.largo * this.ancho;
+        return this.largo;
     }
     
-    void calcularValorTotal()
+    // Obtener el valor del ancho
+    double getAncho()
+    {
+        return this.largo;
+    }
+    
+    // void cuando no se necesita que el metodo devuelva una variable
+    void setLargo(double largo)
+    {
+        this.largo = largo;
+    }
+    
+    // void cuando no se necesita que el metodo devuelva una variable
+    void setEstrato(int estrato)
+    {
+        this.estrato = estrato;
+    }
+    
+    // void cuando no se necesita que el metodo devuelva una variable
+    void setAncho(double ancho)
+    {
+        this.ancho = ancho;
+    }
+    
+    //Metodos
+    double calcularArea()
+    {
+        this.area = this.largo * this.ancho;
+        return this.area;
+    }
+    
+    double calcularValorTotal()
     {
         if(this.estrato == 1 || this.estrato == 2)
         {
@@ -27,5 +59,6 @@ public class Terreno
         {
             this.valorTotal = this.area * 4820000;
         }
+        return this.valorTotal;
     }
 }
